@@ -1,0 +1,31 @@
+{%- style -%}
+.tmp-exp{padding:72px 0;background:#041F3D;color:#fff}
+.tmp-exp__in{display:grid;gap:3.6rem;align-items:center;grid-template-columns:1fr}
+@media(min-width:990px){.tmp-exp__in{grid-template-columns:.9fr 1.1fr;gap:6rem}}
+.tmp-exp__img img,.tmp-exp__ph{width:100%;height:auto;border-radius:28px;display:block}
+.tmp-exp__ph{aspect-ratio:4/5;background:linear-gradient(160deg,#14305E,#2A6FDB);display:flex;align-items:flex-end;padding:2.4rem;font-size:1.4rem;color:#CFE0F5}
+.tmp-exp__eyebrow{font-size:1.3rem;letter-spacing:.18em;font-weight:700;color:#8FB6EE;text-transform:uppercase}
+.tmp-exp h2{font-family:var(--font-body-family);font-weight:800;color:#fff;font-size:clamp(3rem,4.2vw,4.4rem);line-height:1.1;letter-spacing:-.02em;margin:1.2rem 0 1.6rem}
+.tmp-exp h2 em{font-family:'Playfair Display',Georgia,serif;font-weight:400;color:#8FB6EE}
+.tmp-exp__txt{font-size:1.7rem;line-height:1.6;color:#DCE7F6}
+.tmp-exp__stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem;margin:2.8rem 0}
+.tmp-exp__stats div{background:rgba(255,255,255,.07);border-radius:18px;padding:1.6rem}
+.tmp-exp__stats b{display:block;font-size:2.8rem;color:#fff}
+.tmp-exp__stats span{font-size:1.3rem;color:#B9CDEA}
+.tmp-exp .tmp-btn--pri{background:#fff;color:#041F3D}
+.tmp-exp .tmp-btn--sec{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+{%- endstyle -%}
+<section class="tmp-exp"><div class="page-width tmp-exp__in">
+  <div class="tmp-exp__img">{%- if section.settings.image -%}{{ section.settings.image | image_url: width: 1000 | image_tag: loading: 'lazy', alt: section.settings.image.alt }}{%- else -%}<div class="tmp-exp__ph">Foto de Silvana Meliá (súbela desde el editor del tema)</div>{%- endif -%}</div>
+  <div>
+    <div class="tmp-exp__eyebrow">{{ section.settings.eyebrow }}</div>
+    <h2>{{ section.settings.h_a }} <em>{{ section.settings.h_b }}</em></h2>
+    <div class="tmp-exp__txt">{{ section.settings.text }}</div>
+    <div class="tmp-exp__stats">{%- for b in section.blocks -%}<div {{ b.shopify_attributes }}><b>{{ b.settings.big }}</b><span>{{ b.settings.small }}</span></div>{%- endfor -%}</div>
+    <div class="tmp-hero__btns" style="margin:0">{%- if section.settings.b1 != blank -%}<a class="tmp-btn tmp-btn--pri" href="{{ section.settings.b1_link }}">{{ section.settings.b1 }}</a>{%- endif -%}{%- if section.settings.b2 != blank -%}<a class="tmp-btn tmp-btn--sec" href="{{ section.settings.b2_link }}">{{ section.settings.b2 }}</a>{%- endif -%}</div>
+  </div>
+</div></section>
+{% schema %}
+{"name":"TMP · Equipo experto","settings":[{"type":"image_picker","id":"image","label":"Foto"},{"type":"text","id":"eyebrow","label":"Antetítulo"},{"type":"text","id":"h_a","label":"Título"},{"type":"text","id":"h_b","label":"Título (cursiva)"},{"type":"richtext","id":"text","label":"Texto"},{"type":"text","id":"b1","label":"Botón 1"},{"type":"url","id":"b1_link","label":"Enlace 1"},{"type":"text","id":"b2","label":"Botón 2"},{"type":"url","id":"b2_link","label":"Enlace 2"}],
+"blocks":[{"type":"stat","name":"Dato","settings":[{"type":"text","id":"big","label":"Cifra"},{"type":"text","id":"small","label":"Texto"}]}],"presets":[{"name":"TMP · Equipo experto"}]}
+{% endschema %}

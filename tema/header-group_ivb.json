@@ -1,0 +1,76 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      },
+      "blocks": {
+        "a0": {
+          "type": "announcement",
+          "settings": {
+            "text": "🚚 Envío gratis desde 35 €",
+            "link": "/collections/los-50-mas-vendidos"
+          }
+        },
+        "a1": {
+          "type": "announcement",
+          "settings": {
+            "text": "🎁 5 % en tu primer pedido: suscríbete",
+            "link": ""
+          }
+        },
+        "a2": {
+          "type": "announcement",
+          "settings": {
+            "text": "💬 Consejo farmacéutico gratuito",
+            "link": "/pages/contacto"
+          }
+        },
+        "a3": {
+          "type": "announcement",
+          "settings": {
+            "text": "🏥 ¿Eres farmacia? Solicita tus condiciones",
+            "link": "/pages/farmacias"
+          }
+        }
+      },
+      "block_order": [
+        "a0",
+        "a1",
+        "a2",
+        "a3"
+      ]
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "menu_color_scheme": "scheme-3",
+        "logo_position": "middle-left",
+        "menu": "menu-ivb",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

@@ -1,0 +1,57 @@
+{%- style -%}
+.tmp-hero{background:linear-gradient(180deg,#EAF2FB 0%,#F6FAFE 100%);padding:48px 0 56px;overflow:hidden}
+.tmp-hero__in{display:grid;grid-template-columns:1fr;gap:32px;align-items:center}
+@media(min-width:990px){.tmp-hero__in{grid-template-columns:1.05fr 1fr;gap:56px}.tmp-hero{padding:72px 0 80px}}
+.tmp-hero__trust{display:inline-flex;align-items:center;gap:.6rem;font-size:1.35rem;color:#14305E;background:#fff;border-radius:999px;padding:.6rem 1.2rem;box-shadow:0 4px 14px rgba(20,48,94,.08)}
+.tmp-hero__trust b{color:#041F3D}
+.tmp-hero__stars{color:#F5B400;letter-spacing:.1em}
+.tmp-hero h1{font-family:var(--font-body-family);font-weight:800;color:#041F3D;font-size:clamp(3.6rem,6vw,6.4rem);line-height:1.04;letter-spacing:-.02em;margin:2rem 0 1.6rem}
+.tmp-hero h1 em{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-weight:400;font-style:italic;color:#2A6FDB;letter-spacing:0}
+.tmp-hero__txt{font-size:1.75rem;line-height:1.55;color:#2d3a55;max-width:56rem}
+.tmp-hero__txt strong{color:#041F3D}
+.tmp-hero__btns{display:flex;flex-wrap:wrap;gap:1.2rem;margin:2.8rem 0 2rem}
+.tmp-btn{display:inline-flex;align-items:center;justify-content:center;min-height:5.2rem;padding:0 2.8rem;border-radius:999px;font-weight:700;font-size:1.6rem;text-decoration:none;transition:transform .15s ease,box-shadow .15s ease}
+.tmp-btn:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(20,48,94,.18)}
+.tmp-btn--pri{background:#041F3D;color:#fff}
+.tmp-btn--sec{background:#fff;color:#041F3D;border:1.5px solid #C9D8EE}
+.tmp-hero__ticks{display:flex;flex-wrap:wrap;gap:.6rem 2rem;font-size:1.4rem;color:#2d3a55;list-style:none;padding:0;margin:0}
+.tmp-hero__ticks li:before{content:"✓ ";color:#2A6FDB;font-weight:700}
+.tmp-hero__img{position:relative}
+.tmp-hero__img:before{content:"";position:absolute;inset:8% -10% -8% 12%;background:#CFE0F5;border-radius:50%;z-index:0}
+.tmp-hero__img img{position:relative;z-index:1;width:100%;height:auto;border-radius:28px;display:block;box-shadow:0 24px 60px rgba(20,48,94,.18)}
+.tmp-hero__chip{position:absolute;z-index:2;left:-12px;bottom:24px;background:#fff;border-radius:18px;padding:1.2rem 1.6rem;box-shadow:0 12px 30px rgba(20,48,94,.16);font-size:1.3rem;color:#14305E;max-width:24rem}
+.tmp-hero__chip b{display:block;font-size:2rem;color:#041F3D}
+{%- endstyle -%}
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<section class="tmp-hero">
+  <div class="page-width tmp-hero__in">
+    <div>
+      {%- if section.settings.trust != blank -%}<span class="tmp-hero__trust"><span class="tmp-hero__stars">★★★★★</span> {{ section.settings.trust }}</span>{%- endif -%}
+      <h1>{{ section.settings.h1a }} <em>{{ section.settings.h1b }}</em>{{ section.settings.h1c }}</h1>
+      <div class="tmp-hero__txt">{{ section.settings.text }}</div>
+      <div class="tmp-hero__btns">
+        {%- if section.settings.b1 != blank -%}<a class="tmp-btn tmp-btn--pri" href="{{ section.settings.b1_link }}">{{ section.settings.b1 }}</a>{%- endif -%}
+        {%- if section.settings.b2 != blank -%}<a class="tmp-btn tmp-btn--sec" href="{{ section.settings.b2_link }}">{{ section.settings.b2 }}</a>{%- endif -%}
+      </div>
+      <ul class="tmp-hero__ticks">{%- assign ticks = section.settings.ticks | split: '|' -%}{%- for t in ticks -%}<li>{{ t | strip }}</li>{%- endfor -%}</ul>
+    </div>
+    <div class="tmp-hero__img">
+      {%- if section.settings.image -%}{{ section.settings.image | image_url: width: 1400 | image_tag: loading: 'eager', fetchpriority: 'high', sizes: '(min-width: 990px) 50vw, 100vw', widths: '600,900,1200,1400', alt: section.settings.image.alt }}{%- endif -%}
+      {%- if section.settings.chip_big != blank -%}<div class="tmp-hero__chip"><b>{{ section.settings.chip_big }}</b>{{ section.settings.chip_small }}</div>{%- endif -%}
+    </div>
+  </div>
+</section>
+{% schema %}
+{"name":"TMP · Portada IVB","settings":[
+{"type":"text","id":"trust","label":"Línea de confianza","default":"Seleccionado por farmacéuticos"},
+{"type":"text","id":"h1a","label":"Titular (parte 1)","default":"Cuidarte bien,"},
+{"type":"text","id":"h1b","label":"Titular (cursiva)","default":"sin complicaciones"},
+{"type":"text","id":"h1c","label":"Titular (parte 3)","default":"."},
+{"type":"richtext","id":"text","label":"Texto"},
+{"type":"text","id":"b1","label":"Botón 1"},{"type":"url","id":"b1_link","label":"Enlace 1"},
+{"type":"text","id":"b2","label":"Botón 2"},{"type":"url","id":"b2_link","label":"Enlace 2"},
+{"type":"text","id":"ticks","label":"Ventajas (separadas por |)"},
+{"type":"image_picker","id":"image","label":"Imagen"},
+{"type":"text","id":"chip_big","label":"Etiqueta flotante (grande)"},{"type":"text","id":"chip_small","label":"Etiqueta flotante (pequeña)"}],
+"presets":[{"name":"TMP · Portada IVB"}]}
+{% endschema %}

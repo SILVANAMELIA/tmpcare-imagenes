@@ -147,6 +147,39 @@
         </div>
         <div class="card__content">
           <div class="card__information">
+{%- liquid
+  assign tmp_sello = ''
+  if card_product.handle == 'tmp-care-bisglicinato-de-magnesio'
+    assign tmp_sello = 'Nº1 en ventas'
+  elsif card_product.tags contains 'pack'
+    assign tmp_sello = 'Pack · ahorra 10 %'
+  else
+    for c in card_product.collections
+      if c.handle == 'imprescindibles'
+        assign tmp_sello = 'Top ventas'
+        break
+      endif
+    endfor
+  endif
+  assign tmp_map = 'descanso-y-estres:Descanso|defensas:Defensas|digestivo:Digestión|corazon-y-circulacion:Corazón|articular-y-huesos:Articulaciones|cabello-piel-y-unas:Piel y cabello|energia-y-memoria:Energía y memoria|respiratorio:Respiratorio|deportistas:Deporte|bienestar-de-la-mujer:Mujer|longevidad:Longevidad|control-de-peso:Control de peso|belleza:Belleza' | split: '|'
+  assign tmp_handles = card_product.collections | map: 'handle'
+  assign tmp_ben = ''
+  assign tmp_n = 0
+  for pair in tmp_map
+    assign kv = pair | split: ':'
+    if tmp_handles contains kv[0]
+      assign tmp_n = tmp_n | plus: 1
+      if tmp_n <= 2
+        assign tmp_ben = tmp_ben | append: '<span class="tmp-pill tmp-pill--ben">' | append: kv[1] | append: '</span>'
+      endif
+    endif
+  endfor
+-%}
+            <div class="tmp-pills">
+              {%- if tmp_sello != '' -%}<span class="tmp-pill tmp-pill--sello">{{ tmp_sello }}</span>{%- endif -%}
+              {{- tmp_ben -}}
+              {%- if tmp_n > 2 -%}<span class="tmp-pill tmp-pill--ben">+{{ tmp_n | minus: 2 }}</span>{%- endif -%}
+            </div>
             <h3
               class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
               {% if card_product.featured_media or settings.card_style == 'card' %}
@@ -207,6 +240,7 @@
               {%- endif -%}
 
               {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+              {%- if card_product.metafields.custom.precio_dia != blank -%}<p class="tmp-dia">Desde {{ card_product.metafields.custom.precio_dia }} €/día</p>{%- endif -%}
               {%- if card_product.quantity_price_breaks_configured? -%}
                 {% if card_product.variants_count == 1 and quick_add == 'bulk' %}
                   {% liquid

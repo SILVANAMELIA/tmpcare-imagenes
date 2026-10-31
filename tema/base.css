@@ -3648,3 +3648,11 @@ details-disclosure > details {
 .card__heading,.card__heading a{font-family:var(--font-body-family);font-weight:700;letter-spacing:-.01em;color:#041F3D;line-height:1.25}
 .card__heading.h5{font-size:1.6rem}
 @media screen and (min-width:750px){.card__heading.h5{font-size:1.75rem}}
+
+/* estilo IVB: pills, precio/día, tarjetas redondeadas */
+.tmp-pills{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 .6rem}
+.tmp-pill{display:inline-block;font-family:var(--font-body-family);font-size:1.05rem;line-height:1;padding:.45rem .8rem;border-radius:999px;letter-spacing:.02em;font-weight:600}
+.tmp-pill--sello{background:#041F3D;color:#fff;text-transform:uppercase;letter-spacing:.08em}
+.tmp-pill--ben{background:#EAF2FB;color:#14305E}
+.tmp-dia{margin:.3rem 0 0;font-size:1.3rem;color:#2A6FDB;font-weight:600}
+.card__inner .card__media{border-radius:20px;overflow:hidden}

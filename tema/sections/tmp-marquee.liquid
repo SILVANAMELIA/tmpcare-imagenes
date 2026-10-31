@@ -1,0 +1,12 @@
+{%- style -%}
+.tmp-mq{background:{{ section.settings.bg }};color:{{ section.settings.fg }};overflow:hidden;white-space:nowrap;padding:1.4rem 0;font-weight:600;font-size:1.5rem;letter-spacing:.02em}
+.tmp-mq__track{display:inline-flex;gap:4.8rem;animation:tmpmq 40s linear infinite;padding-left:4.8rem}
+.tmp-mq__track span:before{content:"✦";margin-right:1.2rem;opacity:.6}
+@keyframes tmpmq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tmp-mq__track{animation:none}}
+{%- endstyle -%}
+<div class="tmp-mq"><div class="tmp-mq__track">{%- for i in (1..2) -%}{%- for b in section.blocks -%}<span {{ b.shopify_attributes }}>{{ b.settings.text }}</span>{%- endfor -%}{%- endfor -%}</div></div>
+{% schema %}
+{"name":"TMP · Cinta de claims","settings":[{"type":"color","id":"bg","label":"Fondo","default":"#041F3D"},{"type":"color","id":"fg","label":"Texto","default":"#FFFFFF"}],
+"blocks":[{"type":"item","name":"Claim","settings":[{"type":"text","id":"text","label":"Texto"}]}],"presets":[{"name":"TMP · Cinta de claims"}]}
+{% endschema %}
