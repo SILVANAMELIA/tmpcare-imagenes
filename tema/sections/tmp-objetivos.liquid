@@ -29,7 +29,7 @@
     </div>
     <div class="tmp-obj__grid">
       {%- for b in section.blocks -%}
-        {%- assign p = all_products[b.settings.pack] -%}
+        {%- assign p = b.settings.pack -%}
         <div class="tmp-obj__card" {{ b.shopify_attributes }}>
           <a href="{{ p.url }}">{%- if b.settings.image -%}{{ b.settings.image | image_url: width: 800 | image_tag: loading: 'lazy', alt: b.settings.title }}{%- elsif p.featured_image -%}{{ p.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', alt: p.title }}{%- endif -%}</a>
           <div class="tmp-obj__body">

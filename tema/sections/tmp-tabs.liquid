@@ -37,7 +37,7 @@
 (function(){var r=document.getElementById('tmptabs-{{ section.id }}');if(!r)return;r.querySelectorAll('[role=tab]').forEach(function(b){b.addEventListener('click',function(){r.querySelectorAll('[role=tab]').forEach(function(x){x.setAttribute('aria-selected',x===b)});r.querySelectorAll('.tmp-tabs__panel').forEach(function(p){p.hidden=p.dataset.p!==b.dataset.t})})})})();
 </script>
 {% schema %}
-{"name":"TMP · Favoritos con pestañas","settings":[{"type":"text","id":"h_a","label":"Título","default":"Favoritos"},{"type":"text","id":"h_b","label":"Título (cursiva)","default":"de este mes"},{"type":"range","id":"n","label":"Productos por pestaña","min":4,"max":12,"step":4,"default":8}],
+{"name":"TMP · Favoritos con pestañas","settings":[{"type":"text","id":"h_a","label":"Título","default":"Favoritos"},{"type":"text","id":"h_b","label":"Título (cursiva)","default":"de este mes"},{"type":"range","id":"n","label":"Productos por pestaña","min":4,"max":12,"step":1,"default":8}],
 "blocks":[{"type":"tab","name":"Pestaña","settings":[{"type":"text","id":"label","label":"Nombre"},{"type":"collection","id":"collection","label":"Colección"}]}],
 "presets":[{"name":"TMP · Favoritos con pestañas"}]}
 {% endschema %}
