@@ -593,14 +593,95 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "top50": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "los-50-mas-vendidos",
+        "products_to_show": 8,
+        "title": "<strong>Los 50 más vendidos</strong>",
+        "heading_size": "h2",
+        "description": "<p>Los que más recomiendan nuestras farmacias. Empieza por aquí.</p>",
+        "show_description": true,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "color_scheme": "scheme-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "catalogo": {
+      "type": "rich-text",
+      "blocks": {
+        "k0": {
+          "type": "caption",
+          "settings": {
+            "caption": "CATÁLOGO COMPLETO",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "k1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Más de 130 fórmulas con calidad de farmacia",
+            "heading_size": "h1"
+          }
+        },
+        "k2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vitaminas, minerales, omegas, plantas, digestivo, descanso, defensas, mujer, deporte y mucho más. Todo ordenado por lo que más piden nuestras farmacias.</p>"
+          }
+        },
+        "k3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver el catálogo completo",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "Buscar por necesidad",
+            "button_link_2": "/pages/que-buscas",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "k0",
+        "k1",
+        "k2",
+        "k3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
     }
   },
   "order": [
     "hero",
     "confianza",
     "destacados",
+    "top50",
     "experta",
     "colecciones",
+    "catalogo",
     "datos",
     "farmacias",
     "ofrecemos",
