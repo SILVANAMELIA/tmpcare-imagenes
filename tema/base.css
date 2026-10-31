@@ -3653,7 +3653,7 @@ details-disclosure > details {
 .tmp-pills{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 .6rem}
 .tmp-pill{display:inline-block;font-family:var(--font-body-family);font-size:1.05rem;line-height:1;padding:.45rem .8rem;border-radius:999px;letter-spacing:.02em;font-weight:600}
 .tmp-pill--sello{background:#041F3D;color:#fff;text-transform:uppercase;letter-spacing:.08em}
-.tmp-pill--ben{background:#EAF2FB;color:#14305E}
-.tmp-dia{margin:.3rem 0 0;font-size:1.3rem;color:#2A6FDB;font-weight:600}
+.tmp-pill--ben{background:#E9ECEF;color:#041F3D}
+.tmp-dia{margin:.3rem 0 0;font-size:1.3rem;color:#041F3D;font-weight:600}
 .card__inner .card__media{border-radius:20px;overflow:hidden}
 @media(max-width:749px){.tmp-pills .tmp-pill--ben~.tmp-pill--ben{display:none}.tmp-pill{font-size:.95rem}}

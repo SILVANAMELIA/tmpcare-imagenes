@@ -394,9 +394,9 @@
     "experta": {
       "type": "tmp-experto",
       "settings": {
-        "eyebrow": "Desarrollado por el equipo de TMP CARE",
-        "h_a": "Silvana Meliá y un equipo",
-        "h_b": "farmacéutico a tu lado",
+        "eyebrow": "Quién está detrás de TMP CARE",
+        "h_a": "Silvana Meliá:",
+        "h_b": "25 años al lado de la farmacia",
         "text": "<p>TMP CARE nace de la experiencia de Silvana Meliá: más de 25 años en el sector salud, en el ámbito hospitalario, en la gestión nacional de productos sanitarios y junto a asociaciones de profesionales sanitarios.</p><p>Por eso trabajamos de la mano de farmacéuticos, con fichas claras y alegaciones autorizadas. <strong>No damos solo producto: te ayudamos a elegir con criterio.</strong></p>",
         "b1": "Conoce quiénes somos",
         "b1_link": "/pages/quienes-somos",
@@ -486,19 +486,19 @@
     "tmp_hero": {
       "type": "tmp-hero",
       "settings": {
-        "trust": "Seleccionado por farmacéuticos · +500 farmacias",
-        "h1a": "Cuidarte bien,",
-        "h1b": "sin complicaciones",
+        "trust": "TMP CARE · Tu marca propia en complementos alimenticios",
+        "h1a": "La marca de tu farmacia,",
+        "h1b": "también en casa",
         "h1c": ".",
-        "text": "<p>Complementos alimenticios con calidad de farmacia: ingredientes declarados y la dosis explicada en cada ficha. <strong>Desde 0,25 €/día.</strong></p>",
-        "b1": "Encuentra tu protocolo",
+        "text": "<p>Somos la marca propia de más de 500 farmacias: las mismas fórmulas que te recomienda tu farmacéutico, con calidad farmacia y la dosis explicada en cada ficha. <strong>Cómpralo aquí o en tu farmacia. Desde 0,25 €/día.</strong></p>",
+        "b1": "Encuentra tu fórmula",
         "b1_link": "#objetivos",
-        "b2": "Los 12 imprescindibles",
-        "b2_link": "shopify://collections/imprescindibles",
-        "ticks": "Envío gratis desde 35 € | Consejo farmacéutico | Laboratorio en España | También en tu farmacia",
+        "b2": "Soy farmacia: quiero mi marca",
+        "b2_link": "/pages/farmacias",
+        "ticks": "Envío gratis desde 35 € | Consejo farmacéutico | +130 fórmulas | Cómpralo aquí o en tu farmacia",
         "image": "shopify://shop_images/uri_ifs_3A_2F_2FM_2Fba25306121b341aca4bd66def50d3860.png",
         "chip_big": "Nº1 en ventas",
-        "chip_small": "Bisglicinato de Magnesio, el favorito de nuestros clientes"
+        "chip_small": "Bisglicinato de Magnesio, el más pedido en nuestras farmacias"
       }
     },
     "tmp_claims": {
@@ -511,43 +511,43 @@
         "item_0": {
           "type": "item",
           "settings": {
-            "text": "Calidad farmacia"
+            "text": "Tu marca propia en complementos alimenticios"
           }
         },
         "item_1": {
           "type": "item",
           "settings": {
-            "text": "Envío gratis desde 35 €"
+            "text": "+500 farmacias trabajan con TMP CARE"
           }
         },
         "item_2": {
           "type": "item",
           "settings": {
-            "text": "+500 farmacias confían en TMP CARE"
+            "text": "Cómpralo aquí o en tu farmacia"
           }
         },
         "item_3": {
           "type": "item",
           "settings": {
-            "text": "+130 fórmulas"
+            "text": "Calidad farmacia"
           }
         },
         "item_4": {
           "type": "item",
           "settings": {
-            "text": "Consejo farmacéutico gratuito"
+            "text": "Envío gratis desde 35 €"
           }
         },
         "item_5": {
           "type": "item",
           "settings": {
-            "text": "Elaborado en España"
+            "text": "+130 fórmulas"
           }
         },
         "item_6": {
           "type": "item",
           "settings": {
-            "text": "5 % en tu primer pedido"
+            "text": "Lo comercial no está reñido con la salud real"
           }
         }
       },
@@ -564,10 +564,10 @@
     "objetivos": {
       "type": "tmp-objetivos",
       "settings": {
-        "h_a": "¿Qué quieres",
-        "h_b": "cuidar?",
-        "sub": "Cada objetivo tiene su protocolo y su pack inicial: tres fórmulas que se complementan, con un 10 % de descuento.",
-        "gift": "CONSEJO FARMACÉUTICO GRATIS"
+        "h_a": "¿Para qué",
+        "h_b": "lo necesitas?",
+        "sub": "Tres fórmulas por objetivo, combinadas como lo haría tu farmacéutico en el mostrador. Juntas, con un 10 % menos.",
+        "gift": "LA RECOMENDACIÓN DEL MOSTRADOR"
       },
       "blocks": {
         "objetivo_0": {
@@ -575,7 +575,7 @@
           "settings": {
             "title": "Descanso y estrés",
             "pack": "pack-descanso-y-calma",
-            "incluye": "Pack inicial: Bisglicinato de Magnesio + Melatonix Natur + Ashwagandha KSM-66",
+            "incluye": "Incluye: Bisglicinato de Magnesio + Melatonix Natur + Ashwagandha KSM-66",
             "link": "shopify://collections/descanso-y-estres"
           }
         },
@@ -584,7 +584,7 @@
           "settings": {
             "title": "Defensas",
             "pack": "pack-defensas",
-            "incluye": "Pack inicial: C Vitamin Plus + Vitamina D3 + K2 + Inmunonatur Plus",
+            "incluye": "Incluye: C Vitamin Plus + Vitamina D3 + K2 + Inmunonatur Plus",
             "link": "shopify://collections/defensas"
           }
         },
@@ -593,7 +593,7 @@
           "settings": {
             "title": "Digestión e intestino",
             "pack": "pack-digestion-e-intestino",
-            "incluye": "Pack inicial: PBIOTIC+ + Lax Digest + Multienzym",
+            "incluye": "Incluye: PBIOTIC+ + Lax Digest + Multienzym",
             "link": "shopify://collections/digestivo"
           }
         },
@@ -602,7 +602,7 @@
           "settings": {
             "title": "Corazón y colesterol",
             "pack": "pack-corazon-y-colesterol",
-            "incluye": "Pack inicial: Cholesterol Natur + Omega 3+ Perle + Q10 200 mg",
+            "incluye": "Incluye: Cholesterol Natur + Omega 3+ Perle + Q10 200 mg",
             "link": "shopify://collections/corazon-y-circulacion"
           }
         },
@@ -611,7 +611,7 @@
           "settings": {
             "title": "Piel, cabello y uñas",
             "pack": "pack-piel-cabello-y-unas",
-            "incluye": "Pack inicial: Colagen Plus Natur + Queratin Natur + Skin Natur",
+            "incluye": "Incluye: Colagen Plus Natur + Queratin Natur + Skin Natur",
             "link": "shopify://collections/cabello-piel-y-unas"
           }
         },
@@ -620,7 +620,7 @@
           "settings": {
             "title": "Huesos y articulaciones",
             "pack": "pack-huesos-y-articulaciones",
-            "incluye": "Pack inicial: Oseo Natur + Colágeno UC-II Plus + Cartil Forte",
+            "incluye": "Incluye: Oseo Natur + Colágeno UC-II Plus + Cartil Forte",
             "link": "shopify://collections/articular-y-huesos"
           }
         }
@@ -637,8 +637,8 @@
     "favoritos": {
       "type": "tmp-tabs",
       "settings": {
-        "h_a": "Favoritos",
-        "h_b": "de este mes",
+        "h_a": "Lo más pedido",
+        "h_b": "en farmacia",
         "n": 8
       },
       "blocks": {
@@ -697,17 +697,17 @@
     "herramientas": {
       "type": "tmp-herramientas",
       "settings": {
-        "title": "Herramientas para elegir bien",
-        "sub": "Gratis y en minutos. Cada una termina en una recomendación concreta."
+        "title": "Tu farmacéutico, también online",
+        "sub": "Herramientas gratuitas para acertar con tu complemento, como si estuvieras en el mostrador."
       },
       "blocks": {
         "tool_0": {
           "type": "tool",
           "settings": {
             "icon": "🧭",
-            "title": "Test de 2 minutos",
-            "text": "Responde unas preguntas y te proponemos la rutina que encaja contigo.",
-            "btn": "Hacer el test",
+            "title": "Tu rutina en 2 minutos",
+            "text": "Contesta unas preguntas y te decimos por dónde empezar.",
+            "btn": "Empezar",
             "link": "/collections/all#quiz"
           }
         },
@@ -716,8 +716,8 @@
           "settings": {
             "icon": "🐟",
             "title": "Calculadora de omega-3",
-            "text": "Descubre cuánto EPA y DHA te aporta cada perla y cuál te conviene.",
-            "btn": "Calcular",
+            "text": "Compara el EPA y el DHA de cada perla y elige con datos.",
+            "btn": "Comparar",
             "link": "/collections/omegas?view=calculadora"
           }
         },
@@ -725,8 +725,8 @@
           "type": "tool",
           "settings": {
             "icon": "💬",
-            "title": "Consulta farmacéutica gratis",
-            "text": "¿Dudas con una combinación o una pauta? Escríbenos y te responde un farmacéutico.",
+            "title": "Pregunta a un farmacéutico",
+            "text": "Escríbenos tu duda sobre una pauta o una combinación y te respondemos sin compromiso.",
             "btn": "Preguntar",
             "link": "/pages/contacto"
           }
@@ -750,14 +750,14 @@
         "heading_0": {
           "type": "heading",
           "settings": {
-            "heading": "Únete a la comunidad TMP CARE",
+            "heading": "El rincón TMP CARE",
             "heading_size": "h1"
           }
         },
         "paragraph_1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Consejos de nuestro equipo farmacéutico, novedades y <strong>un 5 % en tu primer pedido</strong>.</p>"
+            "text": "<p>Consejos de farmacia, novedades y <strong>un 5 % de bienvenida</strong> en tu primer pedido.</p>"
           }
         },
         "email_form_2": {
@@ -777,13 +777,13 @@
     "tmp_claims",
     "objetivos",
     "favoritos",
+    "farmacias",
     "herramientas",
     "experta",
     "confianza",
     "catalogo",
     "newsletter",
     "datos",
-    "farmacias",
     "ofrecemos",
     "como",
     "diferencial",

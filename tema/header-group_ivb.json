@@ -17,29 +17,29 @@
         "a0": {
           "type": "announcement",
           "settings": {
-            "text": "🚚 Envío gratis desde 35 €",
-            "link": "/collections/los-50-mas-vendidos"
+            "text": "Tu marca propia en complementos · Solicita tus condiciones",
+            "link": "/pages/farmacias"
           }
         },
         "a1": {
           "type": "announcement",
           "settings": {
-            "text": "🎁 5 % en tu primer pedido: suscríbete",
-            "link": ""
+            "text": "Envío gratis desde 35 €",
+            "link": "/collections/los-50-mas-vendidos"
           }
         },
         "a2": {
           "type": "announcement",
           "settings": {
-            "text": "💬 Consejo farmacéutico gratuito",
-            "link": "/pages/contacto"
+            "text": "5 % de bienvenida en tu primer pedido",
+            "link": ""
           }
         },
         "a3": {
           "type": "announcement",
           "settings": {
-            "text": "🏥 ¿Eres farmacia? Solicita tus condiciones",
-            "link": "/pages/farmacias"
+            "text": "Cómpralo aquí o en tu farmacia",
+            "link": "/pages/nuestras-farmacias"
           }
         }
       },
