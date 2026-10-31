@@ -401,7 +401,8 @@
         "b1": "Conoce quiénes somos",
         "b1_link": "/pages/quienes-somos",
         "b2": "Nuestras farmacias",
-        "b2_link": "/pages/nuestras-farmacias"
+        "b2_link": "/pages/nuestras-farmacias",
+        "image": "shopify://shop_images/silvana-experta-hd.jpg"
       },
       "blocks": {
         "stat_0": {
@@ -496,7 +497,7 @@
         "b2": "Soy farmacia: quiero mi marca",
         "b2_link": "/pages/farmacias",
         "ticks": "Envío gratis desde 35 € | Consejo farmacéutico | +130 fórmulas | Cómpralo aquí o en tu farmacia",
-        "image": "shopify://shop_images/silvana-portada-retrato.jpg",
+        "image": "shopify://shop_images/silvana-hero-hd.jpg",
         "chip_big": "Silvana Meliá",
         "chip_small": "Fundadora de TMP CARE · 25 años al lado de la farmacia"
       }
