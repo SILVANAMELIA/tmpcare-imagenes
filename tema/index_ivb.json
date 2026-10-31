@@ -597,7 +597,8 @@
             "title": "Digestión e intestino",
             "pack": "pack-digestion-e-intestino",
             "incluye": "Incluye: PBIOTIC+ + Lax Digest + Multienzym",
-            "link": "shopify://collections/digestivo"
+            "link": "shopify://collections/digestivo",
+            "image": "shopify://shop_images/uri_ifs_3A_2F_2FM_2Fa5e7d26decce4c8f8c3dd5ee12eca608.png"
           }
         },
         "objetivo_3": {
@@ -606,7 +607,8 @@
             "title": "Corazón y colesterol",
             "pack": "pack-corazon-y-colesterol",
             "incluye": "Incluye: Cholesterol Natur + Omega 3+ Perle + Q10 200 mg",
-            "link": "shopify://collections/corazon-y-circulacion"
+            "link": "shopify://collections/corazon-y-circulacion",
+            "image": "shopify://shop_images/uri_ifs_3A_2F_2FM_2F712da0649eb94832ac70b3eca35b3cf5.png"
           }
         },
         "objetivo_4": {
@@ -615,7 +617,8 @@
             "title": "Piel, cabello y uñas",
             "pack": "pack-piel-cabello-y-unas",
             "incluye": "Incluye: Colagen Plus Natur + Queratin Natur + Skin Natur",
-            "link": "shopify://collections/cabello-piel-y-unas"
+            "link": "shopify://collections/cabello-piel-y-unas",
+            "image": "shopify://shop_images/uri_ifs_3A_2F_2FM_2F741a28ac2f574636a03f773fdb1aef6c.png"
           }
         },
         "objetivo_5": {
@@ -624,7 +627,8 @@
             "title": "Huesos y articulaciones",
             "pack": "pack-huesos-y-articulaciones",
             "incluye": "Incluye: Oseo Natur + Colágeno UC-II Plus + Cartil Forte",
-            "link": "shopify://collections/articular-y-huesos"
+            "link": "shopify://collections/articular-y-huesos",
+            "image": "shopify://shop_images/uri_ifs_3A_2F_2FM_2Fda390b4c0dfc4e41a3d091f5eb221353.png"
           }
         }
       },
