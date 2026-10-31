@@ -1,0 +1,611 @@
+{
+  "sections": {
+    "hero": {
+      "type": "image-with-text",
+      "blocks": {
+        "b0": {
+          "type": "caption",
+          "settings": {
+            "caption": "SELECCIONADO POR FARMACÉUTICOS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "b1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Complementos Alimenticios con calidad de farmacia",
+            "heading_size": "h1"
+          }
+        },
+        "b2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fórmulas con calidad de farmacia, ingredientes declarados y la dosis de cada toma explicada en cada ficha.</p><p>Cómpralo aquí, en un clic, o pídelo en tu farmacia.</p>",
+            "text_style": "body"
+          }
+        },
+        "b3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver los 12 imprescindibles",
+            "button_link": "shopify://collections/imprescindibles",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/tmpcare-portada-magnesio.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
+    },
+    "datos": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NwDcaa": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Imagen_de_ChatGPT_1_oct_2026_02_08_21_1.png",
+            "title": "Equipos que no venden: recomiendan",
+            "text": "<p>Un producto excelente no se vende solo. <strong>MAi&O es nuestro método de formación para equipos de farmacia</strong>, creado por Silvana Meliá tras más de 25 años en el sector salud.</p><p>Primero conocemos a tu equipo, persona a persona. Después lo entrenamos en consejo farmacéutico, recomendación cruzada, manejo de objeciones de precio y técnicas de cierre. Y medimos resultados con datos reales de tu farmacia.</p><p><strong>El resultado: más confianza en el mostrador, más ticket medio y clientes que vuelven.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b0": {
+          "type": "column",
+          "settings": {
+            "title": "Tu propia marca de complementos",
+            "text": "<p>Complementos con calidad de farmacia y tu marca en la etiqueta y en tu consejo. El cliente que confía en ti vuelve a ti, no a la farmacia de enfrente.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b1": {
+          "type": "column",
+          "settings": {
+            "title": "Margen que se nota",
+            "text": "<p><strong>Condiciones profesionales</strong> Condiciones profesionales, descuentos por volumen y reposiciones a tu ritmo. Más rentabilidad en cada venta, sin inmovilizar stock.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b2": {
+          "type": "column",
+          "settings": {
+            "title": "Más de 130 fórmulas listas",
+            "text": "<p>Defensas, descanso, articulaciones, digestión, control de peso y mucho más. <strong>Todo lo que te piden en el mostrador, con las formulas de ultima generación mas completas.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b3": {
+          "type": "column",
+          "settings": {
+            "title": "Acompañamiento real",
+            "text": "<p>Cartelería por campañas, muestras bajo pedido y un equipo comercial a tu lado desde el primer pedido.</p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NwDcaa",
+        "b0",
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "title": "¿Eres farmacia? Únete a las <strong>500 farmacias</strong> que ya venden con su propia marca.",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "Quiero mis condiciones de farmacia",
+        "button_link": "/pages/contacto",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "colecciones": {
+      "type": "collection-list",
+      "blocks": {
+        "b0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "patologia-menor"
+          }
+        },
+        "b1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "megadosis"
+          }
+        },
+        "b2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vitaminas"
+          }
+        },
+        "b3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "omegas"
+          }
+        },
+        "b4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "digestivo"
+          }
+        },
+        "b5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "control-de-peso"
+          }
+        },
+        "b6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aceites"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6"
+      ],
+      "settings": {
+        "title": "<strong>Encuentra tu fórmula. Tu ritual</strong>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-2",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "destacados": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "imprescindibles",
+        "products_to_show": 12,
+        "title": "<strong>Los 12 imprescindibles</strong>",
+        "heading_size": "h2",
+        "description": "<p>Los que más recomiendan nuestras farmacias. Empieza por aquí.</p>",
+        "show_description": true,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "farmacias": {
+      "type": "rich-text",
+      "blocks": {
+        "b0": {
+          "type": "caption",
+          "settings": {
+            "caption": "PARA FARMACIAS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "b1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tu marca propia en complementos alimenticios",
+            "heading_size": "h1"
+          }
+        },
+        "b2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Marca propia, consultoría y formación para farmacias que quieren crecer con método, margen y equipo.</p>"
+          }
+        },
+        "b3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Solicitar reunión",
+            "button_link": "/pages/contacto",
+            "button_style_secondary": false,
+            "button_label_2": "Pedir condiciones",
+            "button_link_2": "/pages/contacto",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "ofrecemos": {
+      "type": "multicolumn",
+      "blocks": {
+        "b0": {
+          "type": "column",
+          "settings": {
+            "title": "TMP CARE",
+            "text": "<p><strong>Marca propia de complementos alimenticios.</strong> Pedidos iniciales y reposiciones, descuentos por volumen, cartelería por campañas, muestras bajo pedido y Chat IA exclusivo TMP CARE.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b1": {
+          "type": "column",
+          "settings": {
+            "title": "Consultoría",
+            "text": "<p><strong>Estrategia y rentabilidad.</strong> Estrategia comercial, rentabilidad, análisis de márgenes, activación de oportunidades, organización de procesos y acompañamiento a la farmacia.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b2": {
+          "type": "column",
+          "settings": {
+            "title": "Formaciones",
+            "text": "<p><strong>Equipos que recomiendan con método.</strong> Formación de producto, tríadas de recomendación, Método MAi&amp;O by Silvana, técnicas de ventas generales y retos a los equipos.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2"
+      ],
+      "settings": {
+        "title": "01 · Qué ofrecemos a tu farmacia",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "como": {
+      "type": "multicolumn",
+      "blocks": {
+        "b0": {
+          "type": "column",
+          "settings": {
+            "title": "1 · Reunión inicial",
+            "text": "<p>Conocemos tu farmacia, tu equipo y tus objetivos.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b1": {
+          "type": "column",
+          "settings": {
+            "title": "2 · Pedido inicial",
+            "text": "<p>Seleccionamos las referencias y aplicamos descuentos por volumen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b2": {
+          "type": "column",
+          "settings": {
+            "title": "3 · Activación",
+            "text": "<p>Cartelería por campañas, muestras bajo pedido y formación del equipo.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b3": {
+          "type": "column",
+          "settings": {
+            "title": "4 · Reposición y seguimiento",
+            "text": "<p>Reposiciones ágiles y acompañamiento comercial continuo.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "title": "02 · Cómo trabajamos con tu farmacia",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "diferencial": {
+      "type": "rich-text",
+      "blocks": {
+        "b0": {
+          "type": "caption",
+          "settings": {
+            "caption": "NUESTRO DIFERENCIAL",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "b1": {
+          "type": "heading",
+          "settings": {
+            "heading": "No damos solo producto. Ayudamos a convertirlo en venta.",
+            "heading_size": "h1"
+          }
+        },
+        "b2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Hablemos de tu farmacia",
+            "button_link": "/pages/contacto",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "b0": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Hablamos de la marca propia de tu farmacia?",
+            "heading_size": "h1"
+          }
+        },
+        "b1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cuéntanos qué necesitas y te proponemos una reunión para valorarlo juntos.</p>"
+          }
+        },
+        "b2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Solicitar reunión",
+            "button_link": "/pages/contacto",
+            "button_style_secondary": false,
+            "button_label_2": "Pedir información",
+            "button_link_2": "/pages/contacto",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "confianza": {
+      "type": "multicolumn",
+      "blocks": {
+        "c0": {
+          "type": "column",
+          "settings": {
+            "title": "+500 farmacias",
+            "text": "<p>Han trabajado con TMP CARE a lo largo de nuestra trayectoria.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c1": {
+          "type": "column",
+          "settings": {
+            "title": "Calidad farmacia",
+            "text": "<p>Ingredientes declarados y dosis por toma en cada ficha, sin letra pequeña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c2": {
+          "type": "column",
+          "settings": {
+            "title": "Consejo farmacéutico",
+            "text": "<p>Pídelo en tu farmacia o escríbenos: te orientamos sobre la pauta que encaja contigo.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c3": {
+          "type": "column",
+          "settings": {
+            "title": "Envío gratis desde 60 €",
+            "text": "<p>Envíos a toda España. Y si lo prefieres, pídelo en tu farmacia de confianza.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c0",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
+    "experta": {
+      "type": "rich-text",
+      "blocks": {
+        "e0": {
+          "type": "caption",
+          "settings": {
+            "caption": "QUIÉN ESTÁ DETRÁS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "e1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Más de 25 años en el sector salud, al servicio de tu farmacia y de ti",
+            "heading_size": "h1"
+          }
+        },
+        "e2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TMP CARE nace de la experiencia de Silvana Meliá: más de 25 años en el sector salud, en el ámbito hospitalario, en la gestión nacional de productos sanitarios y junto a asociaciones de profesionales sanitarios.</p><p>Por eso trabajamos de la mano de farmacéuticos, con fichas claras y alegaciones autorizadas. <strong>No damos solo producto: te ayudamos a elegir con criterio.</strong></p>"
+          }
+        },
+        "e3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Conoce quiénes somos",
+            "button_link": "/pages/quienes-somos",
+            "button_style_secondary": false,
+            "button_label_2": "Nuestras farmacias",
+            "button_link_2": "/pages/nuestras-farmacias",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "e0",
+        "e1",
+        "e2",
+        "e3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "confianza",
+    "destacados",
+    "experta",
+    "colecciones",
+    "datos",
+    "farmacias",
+    "ofrecemos",
+    "como",
+    "diferencial",
+    "cta"
+  ]
+}
