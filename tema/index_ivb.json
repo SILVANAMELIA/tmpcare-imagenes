@@ -401,7 +401,8 @@
         "b1": "Conoce quiénes somos",
         "b1_link": "/pages/quienes-somos",
         "b2": "Nuestras farmacias",
-        "b2_link": "/pages/nuestras-farmacias"
+        "b2_link": "/pages/nuestras-farmacias",
+        "image": "shopify://shop_images/silvana-experta.jpg"
       },
       "blocks": {
         "stat_0": {
@@ -496,9 +497,9 @@
         "b2": "Soy farmacia: quiero mi marca",
         "b2_link": "/pages/farmacias",
         "ticks": "Envío gratis desde 35 € | Consejo farmacéutico | +130 fórmulas | Cómpralo aquí o en tu farmacia",
-        "image": "shopify://shop_images/uri_ifs_3A_2F_2FM_2Fba25306121b341aca4bd66def50d3860.png",
-        "chip_big": "Nº1 en ventas",
-        "chip_small": "Bisglicinato de Magnesio, el más pedido en nuestras farmacias"
+        "image": "shopify://shop_images/silvana-portada.jpg",
+        "chip_big": "Silvana Meliá",
+        "chip_small": "Fundadora de TMP CARE · 25 años al lado de la farmacia"
       }
     },
     "tmp_claims": {
