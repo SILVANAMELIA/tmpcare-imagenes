@@ -68,7 +68,7 @@
   },
   "newsletter": {
     "label": "Correo electrónico",
-    "success": "¡Gracias! Tu código de bienvenida es BIENVENIDA5: 5 % en tu primer pedido",
+    "success": "¡Gracias! Tu código de bienvenida es BIENVENIDA: 5 % en tu primer pedido",
     "button_label": "Suscribirse"
   },
   "accessibility": {
